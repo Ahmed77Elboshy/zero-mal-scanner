@@ -1,0 +1,20 @@
+# Zero MAL Scanner - Dependencies
+# ================================
+
+# No external libraries required for basic operation!
+# All required libraries come with Python by default
+
+# Python 3.8+ is all you need
+
+# ================================
+# Optional Libraries (for enhanced features)
+# ================================
+
+# Better EXE/DLL file analysis (recommended)
+# pefile>=2023.2.7
+
+# VirusTotal API integration
+# requests>=2.25.0
+
+# Process monitoring
+# psutil>=5.9.0
