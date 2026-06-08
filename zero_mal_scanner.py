@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Zero MAL Scanner v1.0 - Enterprise Malware Detection System
-Author: me
+Author: Ahmed Elboushy
 License: MIT
 Version: 1.0.0
 """
@@ -24,7 +24,7 @@ from collections import deque
 import struct
 
 __version__ = "1.0.0"
-__author__ = "Zero MAL Security Team"
+__author__ = "Ahmed Elboushy"
 __license__ = "MIT"
 
 class ThreatLevel:
