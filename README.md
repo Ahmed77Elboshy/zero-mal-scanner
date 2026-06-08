@@ -1,41 +1,46 @@
-# Zero-MAL-Scanner
+# 🛡️ Zero MAL Scanner
 
-Free and Open-Source Malware Detection Tool.
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-Developed for file analysis, signature matching, and threat detection using Python.
+---
 
-### Author
+## 🔍 About
 
-Ahmed Elboushy
+Zero MAL Scanner is a Python-based parallel malware scanning engine designed for cybersecurity research and educational purposes.
 
-### Features
+It performs hash-based verification, pattern detection, and forensic logging to identify potentially malicious files in real time.
 
-* Malware Signature Detection
-* File & Directory Scanning
-* Threat Classification
-* Scan Reporting
-* Desktop GUI
+---
 
-### Requirements
+## ⚙️ Features
 
-* Python 3.8+
+- ⚡ Parallel scanning using ThreadPoolExecutor
+- 🔐 MD5 & SHA256 hash verification
+- 🧠 Malware pattern detection (Regex-based)
+- 📁 Folder & file recursive scanning
+- 🛑 Stop scan control
+- 📊 Scan history tracking
+- 📤 Export results to JSON
+- 🧾 File metadata analysis
+- 🖥️ Graphical interface (Tkinter)
 
-### Dependencies
+---
 
-* tkinter
-* hashlib
-* threading
-* pathlib
-* datetime
-* json
-* re
-* os
-* sys
-* time
-* math
+## 🧪 Detection Methods
 
-### License
+- Cryptographic hash comparison
+- Known malware signature matching
+- Regex-based attack pattern detection
+- File behavior heuristics
+- Safe file filtering
 
-MIT License
+---
 
-Free to use, modify, and distribute.
+## 🚀 Installation
+
+```bash
+git clone https://github.com/Ahmed77Elboshy/zero-mal-scanner.git
+cd zero-mal-scanner
+python zero_mal_scanner.py
